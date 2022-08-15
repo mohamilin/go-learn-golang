@@ -10,7 +10,7 @@
         - github.com/mohamilin/go-learn-golang is my repo, use your repository for init the module
         - success message : <strong> go: creating new go.mod: module github.com/mohamilin/go-learn-golang </strong>
 
-## Create module
+## Create module (simple module)
 1. Create a file go_learn.go
     - we just create a function GoLearn (for public, first word must UpperCase)
     ```go
@@ -20,3 +20,7 @@
     }
 
     ```
+## Create version
+1. run in command / terminal : 
+    - git tag  name_version (example : git tag v1.0.0)
+    - git push origin name_version (example : git push origin v1.0.0)
